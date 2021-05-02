@@ -1,0 +1,20 @@
+[package]
+name = "my-lib"
+version = "0.1.0"
+authors = ["AzureAD\\AbdelmonemMohamed <abdelmonem.mohamed@va.ai>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[build-dependencies]
+tonic-build       = "^0.4"
+
+[dependencies]
+tonic        = "^0.4"
+bytes        = "^1"
+prost        = "^0.7"
+prost-types  = "^0.7"
+prost-derive = "^0.7"
+raft         = { git = "https://github.com/tikv/raft-rs", default-features = false, features = ["prost-codec"] }
+
