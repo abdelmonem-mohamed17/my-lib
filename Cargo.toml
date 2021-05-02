@@ -2,6 +2,7 @@
 name = "my-lib"
 version = "0.1.0"
 authors = ["AzureAD\\AbdelmonemMohamed <abdelmonem.mohamed@va.ai>"]
+repository = "https://github.com/abdelmonem-mohamed17/my-lib"
 edition = "2018"
 build = "build.rs"
 
